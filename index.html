@@ -8,9 +8,12 @@
 </head>
 <body>
     <script>
-        const response = await fetch("http://18.141.164.135:8000/api/schedule/a/1");
-        const jsonData = await response.json();
-        console.log(jsonData);
+        async function test(){
+            const response = await fetch("http://18.141.164.135:8000/api/schedule/a/1");
+            const jsonData = await response.json();
+            console.log(jsonData);
+        }
+        test()
     </script>
 </body>
 </html>
