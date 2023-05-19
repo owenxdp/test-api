@@ -1,1 +1,1 @@
-/ss/* http://18.141.164.135:8000/api/schedule/a/:splat 200!
+/api/* http://18.141.164.135:8000/api/schedule/a/1:splat 200!
