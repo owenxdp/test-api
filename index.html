@@ -37,7 +37,7 @@
       const api = '';
 
       function fetchFact(type) {
-        fetch(`http://numbersapi.com/random/${type}`)
+        fetch(`https://chimerical-dusk-c14268.netlify.app/api/${type}`)
           .then((res) => res.text())
           .then((data) => (outputEl.textContent = data))
           .catch((error) => (outputEl.textContent = error));
